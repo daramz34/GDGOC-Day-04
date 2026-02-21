@@ -1,0 +1,19 @@
+GDGOC Bowen 30-Day Challenge - Dynamic Routes with FastAPI
+
+
+Implement dynamic routes using path parameters to handle specific resources based on ID.
+
+## What I Built
+- Static route: `GET /` - Welcome message
+- Dynamic route: `GET /user/{user_id}` - Returns user ID from URL
+
+
+## Tech Stack
+- Python
+- FastAPI
+- Uvicorn
+
+The one personal issue i had was this =
+"http://127.0.0.1:8000/user/dara" instead of me to run this in my url
+i ran 
+"http://127.0.0.1:8000/about/user/dara" 
